@@ -2,8 +2,8 @@
 - id: fish_syntax
   name: Fish syntax check
   description: Check Fish shell syntax
-  entry: pre-commit-hooks/fish_syntax.fish
-  language: script
+  entry: fish --no-execute
+  language: system
   types: [fish]
 - id: fish_indent
   name: Fish indent check
