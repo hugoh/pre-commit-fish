@@ -13,8 +13,3 @@ repos:
     rev: v1.26.1
     hooks:
       - id: yamllint
-  # - repo: .
-  #   rev: HEAD
-  #   hooks:
-  #     - id: fish_syntax
-  #     - id: fish_indent
