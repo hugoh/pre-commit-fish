@@ -1,6 +1,6 @@
-# pre-commit for Fish scripts
+# pre-commit hooks for Fish scripts
 
-Checks syntax and indentation using built-in [Fish shell](https://fishshell.com/) capabilities.
+[pre-commit](https://pre-commit.com/) hooks to check syntax and indentation using built-in [Fish shell](https://fishshell.com/) checkers.
 
 ## Usage
 
