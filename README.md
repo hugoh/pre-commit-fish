@@ -8,7 +8,7 @@ Checks syntax and indentation using built-in [Fish shell](https://fishshell.com/
 ---
 repos:
   - repo: https://github.com/hugoh/pre-commit-fish.git
-    rev: 1
+    rev: v1.1
     hooks:
       - fish_syntax
       - fish_indent
