@@ -4,11 +4,12 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.0.0
     hooks:
-      - id: check-yaml
-      - id: check-json
-      - id: check-executables-have-shebangs
       - id: check-case-conflict
+      - id: check-executables-have-shebangs
+      - id: check-json
+      - id: check-yaml
       - id: detect-private-key
+      - id: no-commit-to-branch
   - repo: https://github.com/adrienverge/yamllint.git
     rev: v1.26.1
     hooks:
