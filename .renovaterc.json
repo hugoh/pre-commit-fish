@@ -2,11 +2,13 @@
   "extends": [
     "config:base"
   ],
-  {
-    "automerge": true,
-    "matchManagers": [
-      "github-actions",
-      "pre-commit"
-    ]
-  }
+  "packageRules": [
+    {
+      "automerge": true,
+      "matchManagers": [
+        "github-actions",
+        "pre-commit"
+      ]
+    }
+  ]
 }
