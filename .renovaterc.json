@@ -1,7 +1,14 @@
 {
   "extends": [
-    "config:base",
-    ":automergeLinters",
-    ":automergeTesters"
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "automerge": true,
+      "matchManagers": [
+        "github-actions",
+        "pre-commit"
+      ]
+    }
   ]
 }
