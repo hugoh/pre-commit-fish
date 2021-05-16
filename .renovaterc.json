@@ -1,7 +1,12 @@
 {
   "extends": [
-    "config:base",
-    ":automergeLinters",
-    ":automergeTesters"
-  ]
+    "config:base"
+  ],
+  {
+    "automerge": true,
+    "matchManagers": [
+      "github-actions",
+      "pre-commit"
+    ]
+  }
 }
