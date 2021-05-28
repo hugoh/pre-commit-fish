@@ -3,10 +3,12 @@ name: super-linter
 
 on:
   push:
+    branches:
+      - master
   pull_request:
 
 jobs:
-  build:
+  lint:
     name: super-linter
     runs-on: ubuntu-latest
     steps:
