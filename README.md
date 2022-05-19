@@ -10,8 +10,8 @@ repos:
   - repo: https://github.com/hugoh/pre-commit-fish.git
     rev: v1.2
     hooks:
-      - fish_syntax
-      - fish_indent
+      - id: fish_syntax
+      - id: fish_indent
 ```
 
 ## Tests supported
