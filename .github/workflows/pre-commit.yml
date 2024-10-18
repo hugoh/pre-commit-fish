@@ -11,11 +11,11 @@ jobs:
   pre-commit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v3
-      - uses: pre-commit/action@v3.0.0
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+      - uses: pre-commit/action@v3
         env:
           SKIP: no-commit-to-branch
-      - uses: fish-actions/install-fish@v1.1.0
+      - uses: fish-shop/install-fish-shell@v1
       - run: pre-commit try-repo . fish_syntax --verbose --all-files
       - run: pre-commit try-repo . fish_indent --verbose --all-files

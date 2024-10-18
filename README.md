@@ -7,8 +7,8 @@
 ```yaml
 ---
 repos:
-  - repo: https://github.com/hugoh/pre-commit-fish.git
-    rev: v1.2
+  - repo: https://github.com/razvanazamfirei/pre-commit-fish.git
+    rev: v1.3
     hooks:
       - id: fish_syntax
       - id: fish_indent
